@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Work history</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Work-history" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Combined-Shape" stroke="#E8F0FC" stroke-width="1.5" fill="#E8F0FC" x="0.75" y="14.75" width="46.5" height="10.5" rx="4"></rect>
+        <rect id="Combined-Shape" stroke="#E8F0FC" stroke-width="1.5" fill="#E8F0FC" x="0.75" y="0.75" width="46.5" height="10.5" rx="4"></rect>
+        <rect id="Combined-Shape" stroke="#E8F0FC" stroke-width="1.5" fill="#E8F0FC" x="0.75" y="28.75" width="46.5" height="10.5" rx="4"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="12" y="21" width="17" height="2" rx="1"></rect>
+        <rect id="Rectangle-Copy-2" fill="#BBD4F7" x="12" y="7" width="17" height="2" rx="1"></rect>
+        <rect id="Rectangle-Copy-4" fill="#BBD4F7" x="12" y="35" width="17" height="2" rx="1"></rect>
+        <rect id="Rectangle-Copy" fill="#BBD4F7" x="12" y="17" width="8" height="2" rx="1"></rect>
+        <rect id="Rectangle-Copy-3" fill="#BBD4F7" x="12" y="3" width="8" height="2" rx="1"></rect>
+        <rect id="Rectangle-Copy-5" fill="#BBD4F7" x="12" y="31" width="8" height="2" rx="1"></rect>
+        <circle id="Oval" fill="#0764E3" cx="7" cy="20" r="3"></circle>
+        <circle id="Oval-Copy" fill="#0764E3" cx="7" cy="6" r="3"></circle>
+        <circle id="Oval-Copy-2" fill="#0764E3" cx="7" cy="34" r="3"></circle>
+        <polygon id="&gt;" fill="#BBD4F7" transform="translate(41.781250, 20.281250) rotate(-270.000000) translate(-41.781250, -20.281250) " points="40.5 23.0625 40.5 22.2826225 42.3461254 20.28125 40.5 18.2751795 40.5 17.5 43.0625 20.28125"></polygon>
+        <polygon id="&gt;-copy" fill="#BBD4F7" transform="translate(41.781250, 6.281250) rotate(-270.000000) translate(-41.781250, -6.281250) " points="40.5 9.0625 40.5 8.28262247 42.3461254 6.28125 40.5 4.27517948 40.5 3.5 43.0625 6.28125"></polygon>
+        <polygon id="&gt;-copy-2" fill="#BBD4F7" transform="translate(41.781250, 34.281250) rotate(-270.000000) translate(-41.781250, -34.281250) " points="40.5 37.0625 40.5 36.2826225 42.3461254 34.28125 40.5 32.2751795 40.5 31.5 43.0625 34.28125"></polygon>
+    </g>
+</svg>

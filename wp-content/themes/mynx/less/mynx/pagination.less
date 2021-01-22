@@ -1,0 +1,49 @@
+@import "variables.less";
+
+.loop-pagination() {
+    .vendor(display, flex);
+    .vendor(align-items, center);
+    a:hover {
+        color: @brand-color;
+    }
+    span.current, span.dots, a {
+        display: inline-block;
+        margin: 0;
+        margin-right: 15px;
+        line-height: @input-height * 0.75;
+        height: @input-height * 0.75;
+        width: @input-height * 0.75;
+        text-align: center;
+        text-decoration: none;
+        .panel();
+        span {
+            display: none;
+        }
+        &.prev, &.next {         
+            font-size: @azexo-paragraph-font-size * 0.14;
+            background-color: @brand-medium-bg-color;
+            border-color: @brand-medium-bg-color;
+        }
+        &.current, &:hover {
+            color: @white-lighter;
+            background-color: @brand-color;
+            border-color: @brand-color;
+        }
+        i {
+            font-family: FontAwesome;
+            &.prev::before {
+                content: "\f104";                
+            }
+            &.next::before {
+                content: "\f105";
+            }
+        }
+    }
+}
+
+nav.paging-navigation {
+    margin-top: 30px;
+    .loop-pagination {
+        .loop-pagination();
+    }
+}

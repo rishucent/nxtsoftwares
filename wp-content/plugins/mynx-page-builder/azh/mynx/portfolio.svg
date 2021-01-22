@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Portfolio</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Portfolio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Combined-Shape" fill="#BBD4F7" x="0" y="0" width="23" height="21" rx="2"></rect>
+        <rect id="Combined-Shape" fill="#E8F0FC" x="0" y="24" width="23" height="16" rx="2"></rect>
+        <rect id="Combined-Shape" fill="#E8F0FC" x="26" y="0" width="22" height="13" rx="2"></rect>
+        <rect id="Combined-Shape" fill="#E8F0FC" x="26" y="16" width="22" height="24" rx="2"></rect>
+        <rect id="Rectangle-14" fill="#0764E3" x="4" y="15" width="8" height="2"></rect>
+        <rect id="Rectangle-14" fill="#0764E3" x="4" y="12" width="11" height="2"></rect>
+        <rect id="Rectangle-14" fill="#0764E3" x="4" y="4" width="11" height="3"></rect>
+    </g>
+</svg>

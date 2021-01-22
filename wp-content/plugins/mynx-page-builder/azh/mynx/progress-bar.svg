@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Progressbars</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Progressbars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-" fill="#BBD4F7" x="0" y="36" width="48" height="4" rx="2"></rect>
+        <rect id="Rectangle-" fill="#BBD4F7" x="0" y="21" width="48" height="4" rx="2"></rect>
+        <rect id="Rectangle-" fill="#BBD4F7" x="0" y="5" width="48" height="4" rx="2"></rect>
+        <rect id="Rectangle-" fill="#0764E3" x="0" y="36" width="20" height="4" rx="2"></rect>
+        <rect id="Rectangle-" fill="#0764E3" x="0" y="21" width="35" height="4" rx="2"></rect>
+        <rect id="Rectangle-" fill="#0764E3" x="0" y="5" width="28" height="4" rx="2"></rect>
+        <rect id="Rectangle-11" fill="#E8F0FC" x="0" y="31" width="32" height="3" rx="1.5"></rect>
+        <rect id="Rectangle-11" fill="#E8F0FC" x="0" y="16" width="32" height="3" rx="1.5"></rect>
+        <rect id="Rectangle-11" fill="#E8F0FC" x="0" y="0" width="32" height="3" rx="1.5"></rect>
+        <rect id="Rectangle-11" fill="#E8F0FC" x="43" y="31" width="5" height="3" rx="1.5"></rect>
+        <rect id="Rectangle-11" fill="#E8F0FC" x="43" y="16" width="5" height="3" rx="1.5"></rect>
+        <rect id="Rectangle-11" fill="#E8F0FC" x="43" y="0" width="5" height="3" rx="1.5"></rect>
+    </g>
+</svg>

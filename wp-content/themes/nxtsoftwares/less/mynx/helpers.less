@@ -1,0 +1,60 @@
+@import "variables.less";
+
+.clearfix::after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.horizontal-list(@width, @offset) {
+    font-size: 0;
+    margin-left: -@offset !important;
+    margin-right: -@offset !important;
+    &.p {
+        > * {
+            margin-bottom:  0;
+        }
+    }
+    > * {
+        box-sizing: border-box;
+        display: inline-block;
+        vertical-align: top;
+        width: @width;
+        padding-left: @offset !important;
+        padding-right: @offset !important;
+        font-size: @azexo-paragraph-font-size;
+        margin-bottom:  @offset * 2;
+    }
+    @media (max-width: 768px) {
+        display: block;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        > * {
+            display: block;
+            width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;            
+            margin-bottom:  @offset * 2 !important;
+        }
+    }
+}
+
+.horizontal-list(@width, @offset) when (@width = ~"calc(25% - 0.5px)") {
+    @media (max-width: 992px) {
+        > * {
+            width: ~"calc(50% - 0.5px)";
+        }
+    }
+}
+
+.horizontal-list-2:not(.posts-list-wrapper) {
+    .horizontal-list(~"calc(50% - 0.5px)", 15px);
+}
+
+.horizontal-list-3:not(.posts-list-wrapper) {
+    .horizontal-list(~"calc(33.33333% - 0.5px)", 15px);
+}
+
+.horizontal-list-4:not(.posts-list-wrapper) {
+    .horizontal-list(~"calc(25% - 0.5px)", 15px);
+}

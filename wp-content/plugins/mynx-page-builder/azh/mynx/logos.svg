@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Clientlogo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Clientlogo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Combined-Shape" stroke="#E8F0FC" stroke-width="1.5" fill="#E8F0FC" x="0.75" y="0.75" width="46.5" height="38.5" rx="4"></rect>
+        <rect id="Rectangle" fill="#0764E3" x="7" y="10" width="8" height="8" rx="2"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="7" y="22" width="8" height="8" rx="2"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="20" y="10" width="8" height="8" rx="2"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="20" y="22" width="8" height="8" rx="2"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="33" y="10" width="8" height="8" rx="2"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="33" y="22" width="8" height="8" rx="2"></rect>
+    </g>
+</svg>

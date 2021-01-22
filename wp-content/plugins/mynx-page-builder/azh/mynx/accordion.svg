@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Accordions</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Accordions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Combined-Shape" stroke="#E8F0FC" stroke-width="1.5" fill="#E8F0FC" x="0.75" y="10.75" width="46.5" height="18.5" rx="4"></rect>
+        <rect id="Combined-Shape" stroke="#E8F0FC" stroke-width="1.5" fill="#E8F0FC" x="0.75" y="0.75" width="46.5" height="4.5" rx="2.25"></rect>
+        <rect id="Combined-Shape" stroke="#E8F0FC" stroke-width="1.5" fill="#E8F0FC" x="0.75" y="34.75" width="46.5" height="4.5" rx="2.25"></rect>
+        <rect id="Rectangle" fill="#0764E3" x="4" y="16" width="9" height="3" rx="1.5"></rect>
+        <rect id="Rectangle" fill="#0764E3" x="4" y="22" width="23" height="2" rx="1"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="4" y="36" width="23" height="2" rx="1"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="4" y="2" width="23" height="2" rx="1"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="36" y="36" width="8" height="2" rx="1"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="36" y="2" width="8" height="2" rx="1"></rect>
+        <path d="M36.9726542,18.0000167 L44.0273249,18.0000167 C44.2643037,18.0000167 44.4283658,18.1139488 44.5195112,18.3418127 C44.6106567,18.5696767 44.5741986,18.7656399 44.4101365,18.929702 L40.8828012,22.4570373 C40.7734264,22.5664121 40.6458224,22.6210994 40.4999896,22.6210994 C40.3541567,22.6210994 40.2265527,22.5664121 40.117178,22.4570373 L36.5898426,18.929702 C36.4257805,18.7656399 36.3893224,18.5696767 36.4804679,18.3418127 C36.5716134,18.1139488 36.7356755,18.0000167 36.9726542,18.0000167 Z" id="caret-down" fill="#0764E3"></path>
+    </g>
+</svg>

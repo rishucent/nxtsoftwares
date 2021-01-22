@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Headings</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Headings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-11" fill="#BBD4F7" x="0" y="29" width="48" height="3" rx="1.5"></rect>
+        <rect id="Rectangle-11" fill="#BBD4F7" x="0" y="36" width="48" height="3" rx="1.5"></rect>
+        <text id="H1" font-family="AbrilFatface-Regular, Abril Fatface" font-size="26" font-weight="700" letter-spacing="1.08333325" fill="#0764E3">
+            <tspan x="0" y="21">H1</tspan>
+        </text>
+    </g>
+</svg>

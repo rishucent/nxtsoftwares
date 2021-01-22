@@ -1,0 +1,179 @@
+@import "variables.less";
+
+#comments {
+    margin-top: 30px;
+    .panel();
+    padding: 30px;
+    .comments-title {
+        margin: -30px -30px 30px -30px;
+        padding: 20px 30px 20px 30px;
+        border-bottom: @separator-border;                
+    }
+    .comment-list, .comment-list li {
+        list-style-type: none;
+    }
+    .comment-list {
+        ul.children {
+            margin: 40px 0 0 70px;
+        }
+        li.comment, li.pingback {
+            margin-bottom: 40px;
+            .comment-body {
+                .comment-author {
+                    float:left;
+                    width: 70px;
+                    img {
+                        width: 50px;
+                        border-radius: @azexo-main-border-radius;
+                    }
+                }
+                .comment-data {
+                    position: relative;
+                    .comment-meta {
+                        font-size: @azexo-paragraph-font-size * 0.8;
+                        line-height: 15px;
+                        color: @gray-dark;
+                        a {
+                            color: @gray-dark;
+                        }
+                    }
+                    > p {
+                        clear: both;
+                        margin-top: 30px;
+                    }
+                    cite {
+                        color: @azexo-header-color;
+                        font-size: @azexo-paragraph-font-size * 1.067;
+                        font-weight: @azexo-paragraph-bold-weight;
+                        font-style: normal;
+                        display: block;
+                        a {
+                            color: @azexo-header-color;
+                        }
+                    }
+                }
+            }        
+        }
+        .reply {
+            position: absolute;
+            top: 0;
+            right: 0;
+            a {
+                &::after {
+                    content: "\e645";
+                    font-family: "themify";
+                    margin-left: 5px;
+                    font-size: 80%;
+                }
+            }        
+        }
+        #respond {
+            #reply-title {
+            }
+        }
+        + #respond { 
+            margin-top: 20px;
+        }
+    }
+    .comment-navigation {
+        margin-bottom: 40px;
+        .nav-previous {
+            float: left;
+        }
+        .nav-next {
+            float: right;
+        }
+        &::after {
+            content:"";
+            display:table;
+            clear:both;
+        }
+    }
+    #respond {        
+        font-size: @azexo-paragraph-font-size;
+        #reply-title {
+            padding-bottom: 10px;
+        }
+        #commentform {
+            .clearfix();
+            .comment-fields {
+                float: left;
+                width: 40%;
+                padding-right: 30px;
+                box-sizing: border-box;
+                .author-email {
+                }
+                #author, #email, #url {
+                    margin-bottom: 20px;
+                    height: @input-height;
+                }
+                #wp-comment-cookies-consent {
+                    display: none;
+                }
+            }
+            .logged-in-as + #comment {
+                width: 100%;
+            }            
+            #comment {
+                .control();
+                width: 60%;
+                height: @input-height * 2 + 20px;
+                resize: none;
+            }
+            #submit {
+                .secondary-button();
+                text-transform: capitalize;
+                margin-top: 20px;
+            }
+        }
+        #cancel-comment-reply-link {
+        }
+        input:not([type="submit"]) {
+            .control();
+            vertical-align: middle;
+            display: inline-block;            
+        }
+        input:not([type="submit"]) {
+            .placeholder(color, @gray-light);
+            .placeholder(font-weight, @azexo-paragraph-font-weight);
+        } 
+        div.form-submit {
+            padding: 0px;
+            margin: 0px;
+        }        
+    }
+}
+
+
+@media (max-width: 1000px) {
+    #comments {
+        .comment-list {
+            ul.children {
+                margin: 40px 0 0 30px;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    #comments {
+        .comment-list {
+            ul.children {
+                margin: 40px 0 0 0;
+            }
+        }
+        #respond {
+            #commentform {
+                .comment-fields {
+                    float: none;
+                    width: 100%;
+                    padding-right: 0;
+                    #author, #email, #url {
+                    }
+                }
+                #comment {
+                    width: 100%;
+                }
+            }
+        }
+    }    
+}

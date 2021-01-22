@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Menu</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Combined-Shape" stroke="#BBD4F7" stroke-width="1.5" fill="#BBD4F7" x="0.75" y="3.75" width="46.5" height="9.5" rx="3"></rect>
+        <rect id="Rectangle-18" fill="#0764E3" x="24" y="7" width="8" height="3" rx="1"></rect>
+        <rect id="Rectangle-18" fill="#0764E3" x="36" y="7" width="7" height="3" rx="1"></rect>
+        <rect id="Rectangle" fill="#E8F0FC" x="9" y="4" width="15" height="34" rx="2"></rect>
+        <rect id="Rectangle" fill="#0764E3" x="9" y="18" width="15" height="8" rx="2"></rect>
+        <rect id="Rectangle-18" fill="#0764E3" x="12" y="7" width="8" height="3" rx="1"></rect>
+        <rect id="Rectangle-18" fill="#0764E3" x="4" y="7" width="3" height="3" rx="1"></rect>
+        <rect id="Rectangle-18" fill="#BBD4F7" x="12" y="28" width="9" height="2" rx="1"></rect>
+        <rect id="Rectangle-18" fill="#BBD4F7" x="12" y="33" width="9" height="2" rx="1"></rect>
+        <rect id="Rectangle-18" fill="#BBD4F7" x="12" y="14" width="9" height="2" rx="1"></rect>
+        <rect id="Rectangle-18" fill="#FFFFFF" x="12" y="21" width="9" height="2" rx="1"></rect>
+    </g>
+</svg>

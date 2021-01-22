@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/ContactForm</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/ContactForm" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-" fill="#E8F0FC" x="0" y="0" width="48" height="40" rx="4"></rect>
+        <rect id="Rectangle" stroke="#006AFF" fill="#0764E3" x="6.5" y="27.5" width="17" height="6" rx="2"></rect>
+        <rect id="Rectangle" stroke="#BBD4F7" fill="#FFFFFF" x="6.5" y="6.5" width="35" height="6" rx="2"></rect>
+        <rect id="Rectangle" stroke="#BBD4F7" fill="#FFFFFF" x="6.5" y="16.5" width="35" height="6" rx="2"></rect>
+    </g>
+</svg>

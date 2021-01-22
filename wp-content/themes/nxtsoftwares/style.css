@@ -1,0 +1,110 @@
+/*
+Theme Name: Mynx
+Theme URI: http://www.azexo.com/mynx
+Version: 1.27.8
+Author: Marketing Automation
+Author URI: http://www.azexo.com
+Text Domain: mynx
+Tags: custom-header, flexible-header, footer-widgets, left-sidebar, right-sidebar, custom-colors, full-width-template, theme-options, e-commerce, blog
+Description: Elastic WordPress theme best suitable for: agency, app, business, consulting, creative, resume, saas, seo, startup, membership, webinar, single product, landing page. 
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+
+/*------------------------------------------------------------------
+
+CONTENTS
+All less files compiled automatically via WP Less library
+
+1. less/mynx/variables.less - less variables
+2. less/mynx/general.less - main layout
+3. less/mynx/typography.less - typography and base HTML/WP tags
+4. less/mynx/comments.less - WP comments
+5. less/mynx/post.less - WP post
+6. less/mynx/header.less - WP header
+7. less/mynx/menu.less - WP site menu
+8. less/mynx/pagination.less - WP pagination
+9. less/mynx/sidebar.less - WP sidebars
+10. less/mynx/widgets.less - WP widgets
+11. less/mynx/archive.less - WP archive page title
+12. less/mynx/templates.less - various post templates
+13. less/mynx/helpers.less - reusable classes
+14. less/mynx/visual-composer.less - visual composer shortcodes
+15. less/mynx/like.less - post like feature
+16. less/mynx/content.less - styles to use it inside post content
+17. less/mynx/woo-cart.less - WooCommerce cart page
+18. less/mynx/woo-checkout.less - WooCommerce checkout page
+19. less/mynx/woocommerce.less - WooCommerce general styles
+20. less/mynx/woo-product.less - WooCommerce single product page
+21. less/mynx/woo-reviews.less - WooCommerce reviews
+22. less/mynx/woo-templates.less - WooCommerce product templates
+23. less/mynx/woo-widgets.less - WooCommerce widgets
+
+-------------------------------------------------------------------*/
+
+.wp-caption { 
+    width: auto;
+}
+
+.wp-caption .wp-caption-text { 
+    font-weight: 600;
+}
+
+.wp-caption img { 
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-caption { 
+    font-weight: 600;
+}
+
+.bypostauthor {
+    font-weight: 600;
+}
+
+.sticky .entry-data .entry-header .entry-title a {
+    color: #6278df;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.aligncenter {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}

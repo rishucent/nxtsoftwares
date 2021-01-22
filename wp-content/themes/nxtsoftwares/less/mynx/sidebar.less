@@ -1,0 +1,106 @@
+@import "variables.less";
+
+.sidebar-container > .sidebar-inner > .widget-area { 
+    > .widget:not(.widget_azh_widget) {
+        margin: 0 0 30px 0;
+        > label {
+            display: block;
+        }
+        .widget-title {
+            margin: -30px -30px 20px -30px;
+            padding: 25px 30px 23px 30px;
+            border-bottom: @separator-border;
+            h3 {
+                margin: 0;
+                font-size: @subheader-font-size;
+                position: relative;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    .vendor(transform, translate(0, -50%));
+                    right: 0;
+                    width: 12px;
+                    height: 5px;
+                    border-radius: @azexo-main-border-radius;
+                    background-color: @azexo-main-border-color;
+                }
+            }
+        }
+    }
+}
+
+#secondary {
+}
+
+#quaternary {
+}
+
+#middle {
+}
+
+#secondary, #middle {
+    .widget {
+        margin-bottom: 0px;
+    } 
+}
+
+
+#tertiary .sidebar-inner  .widget-area {    
+    .widget {
+        > .widget-title {   
+            h3 {
+            }
+        }            
+        &:last-child {
+            margin-bottom: 0;
+        }
+        padding: 30px;
+        .panel();
+    }
+}
+
+
+#quaternary.container, #secondary.container, #middle.container {
+    > .sidebar-inner {
+        > .widget-area {
+            margin: 0 -15px;
+            > .widget {
+                padding: 0 15px;
+            }
+        }
+    }
+}
+#quaternary, #secondary, #middle {
+    > .sidebar-inner {
+        > .widget-area {
+            > .widget.widget_vc_widget, > .widget.widget_azexo_post, > .widget.page-title {
+                margin: 0;
+            }
+            > .widget:not(.widget_azh_widget) {                
+                box-sizing: border-box;
+                position: relative;
+                border: none;
+                float: left;
+                width: 25%;
+                margin: 0 0 40px 0;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    #quaternary, #secondary, #middle {
+        > .sidebar-inner {
+            > .widget-area {
+                margin: 0 !important;
+                > .widget {
+                    float: none !important;
+                    width: 100% !important;
+                    padding: 0 !important;
+                }
+            }
+        }
+    }    
+}

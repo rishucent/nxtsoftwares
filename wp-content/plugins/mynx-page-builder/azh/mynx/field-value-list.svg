@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Field value list</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Field-value-list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Combined-Shape" stroke="#E8F0FC" stroke-width="1.5" fill="#E8F0FC" x="0.75" y="0.75" width="46.5" height="38.5" rx="4"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="6" y="14" width="12" height="2" rx="1"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="20" y="14" width="22" height="2" rx="1"></rect>
+        <rect id="Rectangle" fill="#0764E3" x="6" y="8" width="16" height="3" rx="1.5"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="6" y="18" width="12" height="2" rx="1"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="6" y="26" width="12" height="2" rx="1"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="20" y="18" width="22" height="2" rx="1"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="20" y="26" width="22" height="2" rx="1"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="6" y="22" width="12" height="2" rx="1"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="6" y="30" width="12" height="2" rx="1"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="20" y="22" width="22" height="2" rx="1"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="20" y="30" width="22" height="2" rx="1"></rect>
+    </g>
+</svg>

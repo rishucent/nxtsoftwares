@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Slider frame</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Slider-frame" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Combined-Shape" stroke="#E8F0FC" stroke-width="1.5" fill="#E8F0FC" x="23.75" y="0.75" width="23.5" height="38.5" rx="4"></rect>
+        <circle id="Oval-6" fill="#0764E3" cx="1.5" cy="34.5" r="1.5"></circle>
+        <circle id="Oval-6" fill="#BBD4F7" cx="7.5" cy="34.5" r="1.5"></circle>
+        <circle id="Oval-6" fill="#BBD4F7" cx="13.5" cy="34.5" r="1.5"></circle>
+        <rect id="Rectangle" fill="#BBD4F7" x="0" y="10" width="19" height="2" rx="1"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="0" y="4" width="16" height="3" rx="1.5"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="0" y="14" width="19" height="2" rx="1"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="0" y="18" width="12" height="2" rx="1"></rect>
+        <g id="image-copy" transform="translate(25.000000, 2.000000)" fill="#BBD4F7">
+            <path d="M-11,35.9063575 L-11,30.8537259 L-6.75,26.6431996 C-6.5375,26.4326733 -6.25416613,26.3274101 -5.9,26.3274101 C-5.54583387,26.3274101 -5.2625,26.4326733 -5.05,26.6431996 L-0.8,30.8537259 L11.95,18.222147 C12.1625,18.0116207 12.4458339,17.9063575 12.8,17.9063575 C13.1541661,17.9063575 13.4375,18.0116207 13.65,18.222147 L23,27.4853049 L23,35.9063575 L-11,35.9063575 Z" id="image"></path>
+        </g>
+        <path d="M32.0937355,5.90635751 C33.2536267,5.90635751 34.2258888,6.29867331 35.010522,7.08330646 C35.7951551,7.86793961 36.1874709,8.84020179 36.1874709,10.000093 C36.1874709,11.1599842 35.7951551,12.1322464 35.010522,12.9168795 C34.2258888,13.7015127 33.2536267,14.0938285 32.0937355,14.0938285 C30.9338443,14.0938285 29.9615821,13.7015127 29.1769489,12.9168795 C28.3923158,12.1322464 28,11.1599842 28,10.000093 C28,8.84020179 28.3923158,7.86793961 29.1769489,7.08330646 C29.9615821,6.29867331 30.9338443,5.90635751 32.0937355,5.90635751 Z" id="Path" fill="#BBD4F7"></path>
+    </g>
+</svg>

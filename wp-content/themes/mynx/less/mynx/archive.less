@@ -1,0 +1,19 @@
+@import "variables.less";
+
+
+.archive-header, .page-header { 
+    margin-bottom: 50px;
+    .archive-title, .page-title, .entry-title {
+        font-size: @azexo-header-font-size;
+        font-family: @azexo-header-google-font;
+        font-weight: @azexo-header-font-weight;
+        margin-bottom: 0; 
+        + .archive-subtitle, + .page-subtitle {
+        }
+    }
+    .archive-subtitle, .page-subtitle {
+    }
+    .archive-meta {
+        display: none;
+    }
+}

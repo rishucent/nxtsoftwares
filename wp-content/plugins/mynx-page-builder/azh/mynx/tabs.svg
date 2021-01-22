@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Tabs</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Tabs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#BBD4F7" x="0" y="0" width="48" height="40" rx="4"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="0" y="0" width="24" height="14" rx="4"></rect>
+        <path d="M0.75,5.75 L0.75,36 C0.75,37.7949254 2.20507456,39.25 4,39.25 L44,39.25 C45.7949254,39.25 47.25,37.7949254 47.25,36 L47.25,9 C47.25,7.20507456 45.7949254,5.75 44,5.75 L0.75,5.75 Z" id="Rectangle-" stroke="#BBD4F7" stroke-width="1.5" fill="#E8F0FC"></path>
+        <rect id="Rectangle" fill="#E8F0FC" x="1.5" y="1.5" width="21" height="7.5" rx="2.25"></rect>
+        <rect id="Rectangle-11" fill="#BBD4F7" x="8" y="14" width="32" height="3" rx="1.5"></rect>
+        <rect id="Rectangle-11" fill="#BBD4F7" x="8" y="21" width="32" height="3" rx="1.5"></rect>
+        <rect id="Rectangle-11" fill="#BBD4F7" x="8" y="28" width="22" height="3" rx="1.5"></rect>
+    </g>
+</svg>

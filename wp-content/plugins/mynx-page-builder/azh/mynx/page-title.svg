@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Page title</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Page-title" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Combined-Shape" stroke="#E8F0FC" stroke-width="1.5" fill="#E8F0FC" x="0.75" y="0.75" width="46.5" height="38.5" rx="4"></rect>
+        <path d="M9,29 L48,29 L48,36 C48,38.209139 46.209139,40 44,40 L7,40 L7,31 C7,29.8954305 7.8954305,29 9,29 Z" id="Rectangle" fill="#BBD4F7"></path>
+        <path d="M7.546,6.8 L15.658,6.8 L15.658,7.294 L14.15,7.294 L14.15,15.354 L19.324,15.354 L19.324,7.294 L17.79,7.294 L17.79,6.8 L25.928,6.8 L25.928,7.294 L24.394,7.294 L24.394,24.506 L25.928,24.506 L25.928,25 L17.79,25 L17.79,24.506 L19.324,24.506 L19.324,16.03 L14.15,16.03 L14.15,24.506 L15.658,24.506 L15.658,25 L7.546,25 L7.546,24.506 L9.08,24.506 L9.08,7.294 L7.546,7.294 L7.546,6.8 Z M30.8593333,7.476 L27.9993333,7.84 L27.9473333,7.32 L33.8233333,6.514 L35.9293333,6.514 L35.9293333,24.506 L37.9573333,24.506 L37.9573333,25 L28.1293333,25 L28.1293333,24.506 L30.8593333,24.506 L30.8593333,7.476 Z" id="H1" fill="#0764E3"></path>
+    </g>
+</svg>

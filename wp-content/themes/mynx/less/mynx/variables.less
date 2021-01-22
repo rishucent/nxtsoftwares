@@ -1,0 +1,645 @@
+//@brand-color
+//@accent-1-color
+//@accent-2-color
+
+
+@white-darker:            #e5e5e5;
+@white-dark:              #f0f0f0;
+@white:                   #f5f5f5; 
+@white-light:             #f8f8f8;
+@white-lighter:           #ffffff;
+
+
+@gray-darker:            #999;
+@gray-dark:              #aaa;
+@gray:                   #bbb;
+@gray-light:             #ccc;
+@gray-lighter:           #ddd;
+
+
+@black-darker:            #000;
+@black-dark:              #222;
+@black:                   #333;
+@black-light:             #666;
+@black-lighter:           #888;
+
+
+
+
+
+
+.azexo-main-google-font(@string) when (isstring(@string)) { @azexo-main-google-font: @string; }
+.azexo-main-google-font(@string) when not (isstring(@string)) { @azexo-main-google-font: "@{google-font-family-2}"; }
+.azexo-main-google-font(@string) when (@string = "") { @azexo-main-google-font: "@{google-font-family-2}"; }
+.azexo-main-google-font("@{main-google-font}");
+//@main-google-font: "@{google-font-family-2}";
+
+.azexo-main-border-color(@color) when (iscolor(@color)) { @azexo-main-border-color: fade(@color, 20%); }
+.azexo-main-border-color(@color) when not (iscolor(@color)) { @azexo-main-border-color: fade(@gray-darker, 20%); }
+.azexo-main-border-color(@main-border-color);
+//@main-border-color: #eee; 
+
+.azexo-main-border-radius(@number) when (isnumber(@number)) { @azexo-main-border-radius: @number; }
+.azexo-main-border-radius(@number) when not (isnumber(@number)) { @azexo-main-border-radius: 6px; }
+.azexo-main-border-radius(@main-border-radius);
+//@main-border-radius: 6px;
+
+.azexo-main-border-width(@number) when (isnumber(@number)) { @azexo-main-border-width: @number; }
+.azexo-main-border-width(@number) when not (isnumber(@number)) { @azexo-main-border-width: 1px; }
+.azexo-main-border-width(@main-border-width);
+//@main-border-width: 1px;
+
+.azexo-main-shadow-color(@color) when (iscolor(@color)) { @azexo-main-shadow-color: @color; }
+.azexo-main-shadow-color(@color) when not (iscolor(@color)) { @azexo-main-shadow-color: @black-darker; }
+.azexo-main-shadow-color(@main-shadow-color);
+//@main-shadow-color: @black-darker;
+
+
+
+.azexo-header-google-font(@string) when (isstring(@string)) { @azexo-header-google-font: @string; }
+.azexo-header-google-font(@string) when not (isstring(@string)) { @azexo-header-google-font: "@{google-font-family-1}"; }
+.azexo-header-google-font(@string) when (@string = "") { @azexo-header-google-font: "@{google-font-family-1}"; }
+.azexo-header-google-font("@{header-google-font}");
+//@header-google-font: "@{google-font-family-1}";
+
+.azexo-header-color(@color) when (iscolor(@color)) { @azexo-header-color: @color; }
+.azexo-header-color(@color) when not (iscolor(@color)) { @azexo-header-color: #444; }
+.azexo-header-color(@header-color);
+//@header-color: #444;
+
+.azexo-header-font-size(@number) when (isnumber(@number)) { @azexo-header-font-size: @number; }
+.azexo-header-font-size(@number) when not (isnumber(@number)) { @azexo-header-font-size: 38px; }
+.azexo-header-font-size(@header-font-size);
+//@header-font-size: 38px;
+
+.azexo-header-line-height(@number) when (isnumber(@number)) { @azexo-header-line-height: @number; }
+.azexo-header-line-height(@number) when not (isnumber(@number)) { @azexo-header-line-height: 1.2; }
+.azexo-header-line-height(@header-line-height);
+//@header-line-height: 1.2;
+
+.azexo-header-font-weight(@number) when (isnumber(@number)) { @azexo-header-font-weight: @number; }
+.azexo-header-font-weight(@number) when not (isnumber(@number)) { @azexo-header-font-weight: 700; }
+.azexo-header-font-weight(@header-font-weight);
+//@header-font-weight: 700;
+
+
+
+.azexo-paragraph-color(@color) when (iscolor(@color)) { @azexo-paragraph-color: @color; }
+.azexo-paragraph-color(@color) when not (iscolor(@color)) { @azexo-paragraph-color: #666; }
+.azexo-paragraph-color(@paragraph-color);
+//@paragraph-color: #666;
+
+.azexo-paragraph-font-size(@number) when (isnumber(@number)) { @azexo-paragraph-font-size: @number; }
+.azexo-paragraph-font-size(@number) when not (isnumber(@number)) { @azexo-paragraph-font-size: 15px; }
+.azexo-paragraph-font-size(@paragraph-font-size);
+//@paragraph-font-size: 15px;
+
+.azexo-paragraph-line-height(@number) when (isnumber(@number)) { @azexo-paragraph-line-height: @number; }
+.azexo-paragraph-line-height(@number) when not (isnumber(@number)) { @azexo-paragraph-line-height: 1.7; }
+.azexo-paragraph-line-height(@paragraph-line-height);
+//@paragraph-line-height: 1.7;
+
+.azexo-paragraph-font-weight(@number) when (isnumber(@number)) { @azexo-paragraph-font-weight: @number; }
+.azexo-paragraph-font-weight(@number) when not (isnumber(@number)) { @azexo-paragraph-font-weight: 500; }
+.azexo-paragraph-font-weight(@paragraph-font-weight);
+//@paragraph-font-weight: 500;
+
+.azexo-paragraph-bold-weight(@number) when (isnumber(@number)) { @azexo-paragraph-bold-weight: @number; }
+.azexo-paragraph-bold-weight(@number) when not (isnumber(@number)) { @azexo-paragraph-bold-weight: 700; }
+.azexo-paragraph-bold-weight(@paragraph-bold-weight);
+//@paragraph-bold-weight: 700;
+
+
+
+
+
+@subheader-font-size: @azexo-paragraph-font-size * 1.2;
+@brand-medium-bg-color: fade(@brand-color, 20%);
+@medium-bg-color: @white;
+@dark-background-color: @azexo-header-color;
+
+@border-offset: 4px;
+@separator-border: 2px solid lighten(@azexo-main-border-color, 2%);
+@control-border: 2px solid @azexo-main-border-color;
+@active-control-border: 2px solid @brand-color;
+@medium-brand-border: @azexo-main-border-width solid @brand-medium-bg-color;
+
+@azexo-shadow-color: fade(@azexo-main-shadow-color, 5%);
+@menu-shadow: 2.5px 4.33px 30px 0 @azexo-shadow-color;
+@transition: all .4s ease;
+
+
+@menu-height: 120px;
+@menu-item-v-padding: 10px;
+@menu-item-h-padding: 17px;
+
+@input-height: 50px;
+@input-padding: 10px;
+
+
+
+// 2009 flexbox syntax https://www.w3.org/TR/2009/WD-css3-flexbox-20090723/
+.vendor(@property, @value) when (@property = display) and (@value = flex) {
+    display: -webkit-box;
+}
+.vendor(@property, @value) when (@property = display) and (@value = inline-flex) {
+    display: -webkit-inline-box;
+}
+.vendor(@property, @value) when (@property = align-items)  {
+    -webkit-box-align: @value;
+}
+
+.vendor(@property, @value) when (@property = align-items) and (@value = flex-start) {
+    -webkit-box-align: start;
+}
+
+.vendor(@property, @value) when (@property = align-items) and (@value = flex-end) {
+    -webkit-box-align: end;
+}
+
+.vendor(@property, @value) when (@property = justify-content)  {
+    -webkit-box-pack: @value;
+    -moz-box-pack: @value;
+}
+
+.vendor(@property, @value) when (@property = justify-content) and (@value = flex-start)  {
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+}
+
+.vendor(@property, @value) when (@property = justify-content) and (@value = flex-end)  {
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+}
+
+.vendor(@property, @value) when (@property = justify-content) and (@value = space-between)  {
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;    
+}
+
+.vendor(@property, @value) when (@property = order) {
+    -webkit-box-ordinal-group: @value + 1;
+    -moz-box-ordinal-group: @value + 1;
+    -ms-box-ordinal-group: @value + 1;
+    -o-box-ordinal-group: @value + 1;
+    box-ordinal-group: @value + 1;    
+}
+
+.vendor(@property, @value) when (@property = flex-direction) and (@value = row)  {
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -ms-box-orient: horizontal;
+    -o-box-orient: horizontal;
+    box-orient: horizontal;   
+}
+.vendor(@property, @value) when (@property = flex-direction) and (@value = row-reverse)  {
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -ms-box-orient: horizontal;
+    -o-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -moz-box-direction: reverse;
+    -ms-box-direction: reverse;
+    -o-box-direction: reverse;
+    box-direction: reverse;
+}
+.vendor(@property, @value) when (@property = flex-direction) and (@value = column)  {
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -o-box-orient: vertical;
+    box-orient: vertical;
+}
+.vendor(@property, @value) when (@property = flex-direction) and (@value = column-reverse)  {
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -o-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -moz-box-direction: reverse;
+    -ms-box-direction: reverse;
+    -o-box-direction: reverse;
+    box-direction: reverse;
+}
+
+.vendor(@property, @value) when (@property = flex-wrap) and (@value = wrap) {
+    -webkit-lines: multiple;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    -ms-box-lines: multiple;
+    -o-box-lines: multiple;
+    box-lines: multiple;
+}
+
+.vendor(@property, @value) when (@property = flex-wrap) and (@value = wrap-reverse) {
+    -webkit-lines: multiple;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    -ms-box-lines: multiple;
+    -o-box-lines: multiple;
+    box-lines: multiple;
+    -webkit-box-direction: reverse;
+    -moz-box-direction: reverse;
+    -ms-box-direction: reverse;
+    -o-box-direction: reverse;
+    box-direction: reverse;
+}
+
+.vendor(@property, @value) when (@property = flex-wrap) and (@value = nowrap) {    
+    -webkit-lines: single;
+    -webkit-box-lines: single;
+    -moz-box-lines: single;
+    -ms-box-lines: single;
+    -o-box-lines: single;
+    box-lines: single;
+}
+
+.vendor(@property, @value) when (@property = align-items) and (@value = flex-start) {    
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-box-align: start;
+    -o-box-align: start;
+    box-align: start;
+}
+
+.vendor(@property, @value) when (@property = align-items) and (@value = flex-end) { 
+    -webkit-box-align: end;
+    -moz-box-align: end;
+    -ms-box-align: end;
+    -o-box-align: end;
+    box-align: end;
+}
+
+.vendor(@property, @value) when (@property = align-items) and (@value = center), (@property = align-items) and (@value = baseline), (@property = align-items) and (@value = stretch){
+    -webkit-box-align: @value;
+    -moz-box-align: @value;
+    -ms-box-align: @value;
+    -o-box-align: @value;
+    box-align: @value;
+}
+
+.vendor(@property, @value) when (@property = flex-grow)  {
+    -webkit-box-flex: @value;
+}
+
+
+// 2012 flexbox syntax https://www.w3.org/TR/2012/WD-css3-flexbox-20120322/
+.vendor(@property, @value) when (@property = display) and (@value = flex) {
+    display: -ms-flexbox;
+}
+
+.vendor(@property, @value) when (@property = align-items)  {
+    -ms-flex-align: @value;
+}
+
+.vendor(@property, @value) when (@property = align-items) and (@value = flex-start) {
+    -ms-flex-align: start;
+}
+
+.vendor(@property, @value) when (@property = align-items) and (@value = flex-end) {
+    -ms-flex-align: end;
+}
+
+.vendor(@property, @value) when (@property = align-content) and (@value = flex-start)  {
+    -ms-flex-line-pack: start;
+}
+
+.vendor(@property, @value) when (@property = align-content) and (@value = flex-end)  {
+    -ms-flex-line-pack: end;
+}
+
+.vendor(@property, @value) when (@property = align-content) and (@value = space-between)  {
+    -ms-flex-line-pack: justify;
+}
+
+.vendor(@property, @value) when (@property = align-content) and (@value = space-around)  {
+    -ms-flex-line-pack: distribute;
+}
+
+.vendor(@property, @value) when (@property = align-content) and (@value = center), (@property = align-content) and (@value = stretch)  {
+    -ms-flex-line-pack: @value;
+}
+
+.vendor(@property, @value) when (@property = justify-content)  {
+    -ms-flex-pack: @value;
+}
+
+.vendor(@property, @value) when (@property = justify-content) and (@value = flex-start)  {
+    -ms-flex-pack: start;
+}
+
+.vendor(@property, @value) when (@property = justify-content) and (@value = flex-end)  {
+    -ms-flex-pack: end;
+}
+
+.vendor(@property, @value) when (@property = justify-content) and (@value = space-between)  {
+    -ms-flex-pack: justify;
+}
+
+.vendor(@property, @value) when (@property = justify-content) and (@value = space-around)  {
+    -ms-flex-pack: distribute;
+}
+
+.vendor(@property, @value) when (@property = order) {
+    -ms-flex-order: @value;
+}
+
+.vendor(@property, @value) when (@property = align-items) and (@value = flex-start) { 
+    -ms-flex-align: start;
+}
+
+.vendor(@property, @value) when (@property = align-items) and (@value = flex-end) { 
+    -ms-flex-align: end;
+}
+
+.vendor(@property, @value) when (@property = align-items) and (@value = center), (@property = align-items) and (@value = baseline), (@property = align-items) and (@value = stretch){
+    -ms-flex-align: @value;
+}
+
+.vendor(@property, @value) when (@property = align-self) and (@value = flex-start) { 
+    -ms-flex-item-align: start;
+    flex-item-align: start;
+}
+
+.vendor(@property, @value) when (@property = align-self) and (@value = flex-end) {
+    -ms-flex-item-align: end;
+    flex-item-align: end;
+}
+
+.vendor(@property, @value) when (@property = align-self) and (@value = auto), (@property = align-self) and (@value = center), (@property = align-items) and (@value = baseline), (@property = align-items) and (@value = stretch){
+    -ms-flex-item-align: @value;
+    flex-item-align: @value;
+}
+
+
+.vendor(@property, @value) when (isstring(@value) = false) {
+    -webkit-@{property}: @value;
+    -khtml-@{property}: @value;
+    -moz-@{property}: @value;
+    -ms-@{property}: @value;
+    @{property}: @value;
+}
+
+.vendor(@property, @value) when (isstring(@value) = true) {
+    -webkit-@{property}: e(@value);
+    -khtml-@{property}: e(@value);
+    -moz-@{property}: e(@value);
+    -ms-@{property}: e(@value);
+    @{property}: e(@value);
+}
+
+
+.button() {
+    font-family: @azexo-main-google-font;
+    font-weight: @azexo-paragraph-font-weight;
+    font-size: @azexo-paragraph-font-size;
+    line-height: @azexo-paragraph-line-height;
+    
+    background-color: @brand-color;
+    color: @white-lighter;
+    outline: 0;
+    outline-offset: 0;
+    display: inline-block;
+    width: auto;
+    box-sizing: border-box;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    .vendor(touch-action, manipulation);
+    cursor: pointer;
+    .vendor(user-select, none);
+    background-image: none;
+    margin: 0;
+    text-decoration: none;
+    box-shadow: none;
+    text-shadow: none;
+    padding: 0 30px;
+    border: none;
+    position: relative;
+    line-height: @input-height;
+    border-radius: @azexo-main-border-radius;
+    font-size: @azexo-paragraph-font-size;
+    font-weight: @azexo-paragraph-bold-weight;
+    .vendor(transition, @transition);
+    &:focus {
+        outline: 0;
+        outline-offset: 0;
+    }
+    &:hover {
+        background-color: @azexo-header-color;
+    }
+}
+
+.secondary-button() {
+    background-color: @brand-medium-bg-color;    
+    color: @brand-color;
+    &:hover {
+        background-color: @brand-color;
+        color: @white-lighter;
+    }
+}
+
+.container-width() {
+    @media (min-width: 786px) {
+        max-width: 750px !important;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 970px !important;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1170px !important;
+    }
+}
+
+.container() {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box;    
+    @media (max-width: 786px) {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+    .container-width();
+}
+
+.table(@padding) {
+    border-spacing: 0;
+    table-layout: auto;
+    width: 100%;
+    caption {
+        margin-bottom: 20px;
+        color: @brand-color;
+        line-height: 1;
+    }
+    tr {    
+        th {
+            font-weight: @azexo-paragraph-bold-weight;
+        }
+        td, th {
+            &:first-child {
+                border-top-left-radius: @azexo-main-border-radius;
+                border-bottom-left-radius: @azexo-main-border-radius;
+            }
+            &:last-child {
+                border-top-right-radius: @azexo-main-border-radius;
+                border-bottom-right-radius: @azexo-main-border-radius;
+            }
+            padding: @padding;
+            text-align: left;
+            a {                                
+                color: @brand-color;
+            }
+        }
+    }
+    thead {
+        th {
+            color: @white-lighter;
+            background-color: @azexo-header-color;            
+        }
+    }
+    tbody {
+        tr {    
+            &:nth-child(2n) {
+                td, th {
+                    background-color: @medium-bg-color;
+                }            
+            }
+        }        
+    }
+}
+
+.social-bg-colors() {
+    &.fa-facebook {
+        background-color: #469;
+        &:hover {
+            background-color: #6c8dbe;
+        }
+        &:active {
+            background-color: #8fa8cd;
+        }  
+    }
+    &.fa-twitter {
+        background-color: #09f;
+        &:hover {
+            background-color: #4db8ff;
+        }
+        &:active {
+            background-color: #80ccff;
+        }
+    }
+    &.fa-pinterest {
+        background-color: #c22;
+        &:hover {
+            background-color: #e35757;
+        }
+        &:active {
+            background-color: #ea8383;
+        }                        
+    }
+    &.fa-linkedin {
+        background-color: #07d;
+        &:hover {
+            background-color: #2b9dff;
+        }
+        &:active {
+            background-color: #5eb4ff;
+        }                        
+    }
+    &.fa-google-plus {
+        background-color: #d43;
+        &:hover {
+            background-color: #e88075;
+        }
+        &:active {
+            background-color: #efa8a0;
+        }                        
+    }
+
+}
+
+.panel() {
+    border: @azexo-main-border-width solid @azexo-main-border-color;
+    border-radius: @azexo-main-border-radius;
+    background-color: @white-lighter;    
+}
+
+.control() {
+    font-family: @azexo-main-google-font;
+    line-height: @azexo-paragraph-line-height;
+    display: block;
+    width: 100%;
+    border: @control-border;
+    border-radius: @azexo-main-border-radius;
+    background-color: @white-lighter;
+    background-image: none;
+    box-shadow: none;
+    color: @azexo-header-color;
+    box-sizing: border-box;
+    height: @input-height;
+    padding: @input-padding;
+    .placeholder(text-transform, capitalize);
+    .placeholder(color, fade(@azexo-paragraph-color, 50%));
+    .placeholder(font-weight, @azexo-paragraph-font-weight);
+    .vendor(transition, @transition);
+    font-size: @azexo-paragraph-font-size;
+    font-weight: @azexo-paragraph-font-weight;
+    &:focus {
+        .vendor(box-shadow, none);
+        .vendor(outline, none);
+        border: @active-control-border;
+    }
+}
+
+.placeholder(@property, @value) when (isstring(@value) = false) {
+    &:placeholder {
+        @{property}: @value;
+    }
+    &::placeholder {
+        @{property}: @value;
+    }
+    &::-webkit-input-placeholder {
+        @{property}: @value;
+    }
+    &::-moz-placeholder {
+        @{property}: @value;
+    }
+    &:-moz-placeholder {
+        @{property}: @value;
+    }
+    &:-ms-input-placeholder {
+        @{property}: @value;
+    }     
+}
+
+.placeholder(@property, @value) when (isstring(@value) = true) {
+    &:placeholder {
+        @{property}: e(@value);
+    }
+    &::placeholder {
+        @{property}: e(@value);
+    }
+    &::-webkit-input-placeholder {
+        @{property}: e(@value);
+    }
+    &::-moz-placeholder {
+        @{property}: e(@value);
+    }
+    &:-moz-placeholder {
+        @{property}: e(@value);
+    }
+    &:-ms-input-placeholder {
+        @{property}: e(@value);
+    }     
+}
+
+.clearfix() {
+    &::after {
+        content:"";
+        display:table;
+        clear:both;
+    }    
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Breadcrumbs</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Breadcrumbs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#E8F0FC" x="0" y="0" width="48" height="40" rx="4"></rect>
+        <rect id="Rectangle-18" fill="#0764E3" x="26" y="7" width="8" height="5" rx="1"></rect>
+        <polygon id="&gt;" fill="#0064E6" points="19.5 11.080577 21.25423 9.57297466 19.5 8.08547368 19.5 7 21.944 9.0402885 21.944 10.1157115 19.5 12.156"></polygon>
+        <rect id="Rectangle-18" fill="#0764E3" x="7" y="7" width="8" height="5" rx="1"></rect>
+        <path d="M9,18 L48,18 L48,36 C48,38.209139 46.209139,40 44,40 L7,40 L7,20 C7,18.8954305 7.8954305,18 9,18 Z" id="Rectangle" fill="#BBD4F7"></path>
+    </g>
+</svg>

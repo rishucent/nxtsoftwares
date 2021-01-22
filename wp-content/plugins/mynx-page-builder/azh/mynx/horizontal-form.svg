@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Subscribe</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Subscribe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-" fill="#E8F0FC" x="0" y="0" width="48" height="40" rx="4"></rect>
+        <rect id="Rectangle" stroke="#BBD4F7" fill="#FFFFFF" x="5.5" y="15.5" width="38" height="9" rx="2"></rect>
+        <rect id="Rectangle" stroke="#0764E3" fill="#0764E3" x="31.5" y="15.5" width="12" height="9" rx="2"></rect>
+        <rect id="Rectangle-19" fill="#BBD4F7" x="34" y="19" width="7" height="2" rx="1"></rect>
+        <rect id="Rectangle-19" fill="#0764E3" x="9" y="19" width="16" height="2" rx="1"></rect>
+    </g>
+</svg>

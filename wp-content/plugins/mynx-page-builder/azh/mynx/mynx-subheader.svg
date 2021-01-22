@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Subheader</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Subheader" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Combined-Shape" stroke="#E8F0FC" stroke-width="1.5" fill="#E8F0FC" x="0.75" y="0.75" width="46.5" height="38.5" rx="4"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="5" y="5" width="38" height="30" rx="4"></rect>
+        <path d="M11,11 L14.9717115,11 L14.9717115,11.2442857 L14.2333805,11.2442857 L14.2333805,15.23 L16.7666195,15.23 L16.7666195,11.2442857 L16.0155587,11.2442857 L16.0155587,11 L20,11 L20,11.2442857 L19.2489392,11.2442857 L19.2489392,19.7557143 L20,19.7557143 L20,20 L16.0155587,20 L16.0155587,19.7557143 L16.7666195,19.7557143 L16.7666195,15.5642857 L14.2333805,15.5642857 L14.2333805,19.7557143 L14.9717115,19.7557143 L14.9717115,20 L11,20 L11,19.7557143 L11.7510608,19.7557143 L11.7510608,11.2442857 L11,11.2442857 L11,11 Z M22.4545455,11.4683544 L21.025974,11.6455696 L21,11.3924051 L23.9350649,11 L24.987013,11 L24.987013,19.7594937 L26,19.7594937 L26,20 L21.0909091,20 L21.0909091,19.7594937 L22.4545455,19.7594937 L22.4545455,11.4683544 Z" id="H1" fill="#0764E3"></path>
+    </g>
+</svg>

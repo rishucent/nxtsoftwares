@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Panel</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Combined-Shape" stroke="#E8F0FC" stroke-width="1.5" fill="#E8F0FC" x="0.75" y="0.75" width="46.5" height="38.5" rx="4"></rect>
+        <rect id="Rectangle" fill="#BBD4F7" x="7" y="7" width="34" height="26" rx="2"></rect>
+        <path d="M25,19 L29,19 L29,21 L25,21 L25,25 L23,25 L23,21 L19,21 L19,19 L23,19 L23,15 L25,15 L25,19 Z" id="Combined-Shape" fill="#0764E3"></path>
+    </g>
+</svg>

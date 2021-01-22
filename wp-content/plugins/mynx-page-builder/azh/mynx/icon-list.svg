@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="40px" viewBox="0 0 48 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Sections/Lists</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Sections/Lists" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Combined-Shape" stroke="#E8F0FC" stroke-width="1.5" fill="#E8F0FC" x="0.75" y="0.75" width="46.5" height="38.5" rx="4"></rect>
+        <circle id="Oval" fill="#0764E3" cx="10" cy="20" r="2"></circle>
+        <circle id="Oval" fill="#0764E3" cx="10" cy="30" r="2"></circle>
+        <path d="M17,28 L39,28 C39.5522847,28 40,28.4477153 40,29 L40,31 C40,31.5522847 39.5522847,32 39,32 L17,32 C16.4477153,32 16,31.5522847 16,31 L16,29 C16,28.4477153 16.4477153,28 17,28 Z" id="Rectangle" fill="#BBD4F7"></path>
+        <path d="M17,18 L39,18 C39.5522847,18 40,18.4477153 40,19 L40,21 C40,21.5522847 39.5522847,22 39,22 L17,22 C16.4477153,22 16,21.5522847 16,21 L16,19 C16,18.4477153 16.4477153,18 17,18 Z" id="Rectangle" fill="#BBD4F7"></path>
+        <path d="M17,8 L39,8 C39.5522847,8 40,8.44771525 40,9 L40,11 C40,11.5522847 39.5522847,12 39,12 L17,12 C16.4477153,12 16,11.5522847 16,11 L16,9 C16,8.44771525 16.4477153,8 17,8 Z" id="Rectangle" fill="#BBD4F7"></path>
+        <circle id="Oval" fill="#0764E3" cx="10" cy="10" r="2"></circle>
+    </g>
+</svg>
